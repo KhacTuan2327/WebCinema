@@ -58,27 +58,38 @@
   }
 }
 .nav-container {
-  margin: 2rem 2rem 0 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 40px;
+  position: sticky;
+  z-index: 40;
+  top: 0;
+  border-block-width: 1px;
+  border-color: rgb(229 229 229 / var(--tw-border-opacity));
+  --tw-border-opacity: 1;
+  background-color: hsla(0, 0%, 100%, 0.95);
   .logo {
     display: flex;
     align-items: center;
     gap: 12px;
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     img {
       height: 50px;
+      width: 50px;
     }
     span {
       font-size: 20px;
-      font-weight: 700;
+      font-weight: bold;
     }
   }
   .nav-list {
     display: flex;
     align-items: center;
     gap: 24px;
+    padding-right: 2rem;
   }
   .nav-link {
     transition: linear 0.25s;

@@ -7,8 +7,8 @@ const Navbar = () => {
     <Fragment>
       <nav className="nav-container">
         <a href="#" className="logo">
-          <img src="/src/assets/images/logo.jpg" alt="KT Film" />
-          <span>KT Film</span>
+          <img src="/src/assets/images/logo1.png" alt="KT Movies" />
+          <span>KT Movies</span>
         </a>
         <ul className="nav-list">
           <li className="nav-item">
@@ -27,7 +27,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a href="#" className="nav-link">
+            <a href="/login" className="nav-link">
               Đăng nhập
             </a>
             <span> / </span>

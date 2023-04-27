@@ -85,7 +85,7 @@ const Footer = () => {
         </div>
         <div class="footer-body">
           <div class="category-wrap logo">
-            <img src="/src/assets/images/logo.jpg" alt="KT Film" />
+            <img src="/src/assets/images/logo1.png" alt="KT Movies" />
           </div>
           <div class="category-wrap">
             <h4 class="category-title">Phim Hot</h4>
@@ -184,7 +184,7 @@ const Footer = () => {
               <li class="category-item">
                 <a href="#" title="Email" class="category-link">
                   {" "}
-                  Email: ktfilmmta@gmail.com{" "}
+                  Email: ktmoviesmta@gmail.com{" "}
                 </a>
               </li>
               <li class="category-item">
