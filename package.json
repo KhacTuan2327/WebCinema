@@ -1,42 +1,41 @@
+--- cinema-booking-vn/package.json (原始)
+
+
++++ cinema-booking-vn/package.json (修改后)
 {
-  "name": "cinema",
+  "name": "cinema-booking-vn",
+  "version": "1.0.0",
+  "description": "Website đặt vé xem phim chuẩn Việt Nam",
   "private": true,
-  "version": "0.0.0",
-  "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
-    "@emotion/react": "^11.10.6",
-    "@emotion/styled": "^11.10.6",
-    "@headlessui/react": "^1.7.14",
-    "@material-ui/core": "^4.12.4",
-    "@mui/icons-material": "^5.11.16",
-    "@mui/material": "^5.12.1",
-    "antd": "^5.4.5",
-    "autoprefixer": "^10.4.14",
-    "axios": "^1.3.6",
-    "bootstrap": "^5.2.3",
-    "heroicons": "^2.0.17",
-    "node-sass": "^8.0.0",
-    "postcss": "^8.4.23",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.8.0",
-    "react-loading-skeleton": "^3.2.1",
-    "react-modal": "^3.16.1",
-    "react-router-dom": "^6.10.0",
-    "sass": "^1.62.0",
-    "swiper": "^9.2.4",
-    "tailwindcss": "^3.3.1"
+    "react-router-dom": "^6.20.0",
+    "date-fns": "^3.0.0",
+    "clsx": "^2.0.0",
+    "tailwind-merge": "^2.1.0",
+    "zustand": "^4.4.7",
+    "axios": "^1.6.2"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
-    "@types/react-dom": "^18.0.11",
-    "@vitejs/plugin-react": "^3.1.0",
-    "vite": "^4.2.0",
-    "vite-plugin-sass": "^0.1.0"
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
   }
 }
